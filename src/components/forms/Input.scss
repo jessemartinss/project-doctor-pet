@@ -1,0 +1,73 @@
+@import '../../index.scss';
+
+input[type="text"] {
+    width: 100%;
+    padding: 19px 20px;
+    border: 1px solid $color-primary-01;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-primary-01;
+
+    &:focus {
+        outline: $color-primary-01;
+    }
+
+    &::placeholder {
+        color: $color-neutral-600;
+    }
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 19px 20px;
+    border: 1px solid $color-primary-01;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-primary-01;
+
+    &:focus {
+        outline: $color-primary-01;
+    }
+
+    &::placeholder {
+        color: $color-neutral-600;
+    }
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 19px 20px;
+    border: 1px solid $color-primary-01;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-primary-01;
+
+    &:focus {
+        outline: $color-primary-01;
+    }
+
+    &::placeholder {
+        color: $color-neutral-600;
+    }
+}
+
+textarea {
+    width: 100%;
+    padding: 19px 20px;
+    border: 1px solid $color-primary-01;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-primary-01;
+
+    &:focus {
+        outline: $color-primary-01;
+    }
+
+    &::placeholder {
+        color: $color-neutral-600;
+    }
+}
