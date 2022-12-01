@@ -1,0 +1,92 @@
+@import '../../index.scss';
+
+.dt-btn-small-orange {
+    padding: 18px 28px;
+    line-height: 1.125em;
+    border-radius: 14px;
+    background-color: $color-primary-01;
+    color: $color-neutral-100;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-secundary-02;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
+.dt-btn-default-orange {
+    padding: 26px 44px;
+    line-height: 1.125em;
+    border-radius: 14px;
+    background-color: $color-primary-01;
+    color: $color-neutral-100;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-secundary-02;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
+.dt-btn-large-orange {
+    padding: 28px 68px;
+    line-height: 1.4em;
+    border-radius: 14px;
+    background-color: $color-primary-01;
+    color: $color-neutral-100;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-secundary-02;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
+.dt-btn-small-gray {
+    padding: 18px 28px;
+    line-height: 1.125em;
+    border-radius: 14px;
+    background-color: $color-neutral-300;
+    color: $color-neutral-800;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-neutral-400;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
+.dt-btn-default-gray {
+    padding: 26px 44px;
+    line-height: 1.125em;
+    border-radius: 14px;
+    background-color: $color-neutral-300;
+    color: $color-neutral-800;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-neutral-400;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
+.dt-btn-large-gray {
+    padding: 28px 68px;
+    line-height: 1.4em;
+    border-radius: 14px;
+    background-color: $color-neutral-300;
+    color: $color-neutral-800;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+        background-color: $color-neutral-400;
+        color: $color-neutral-800;
+        transition: 0.8s ease;
+    }
+}
