@@ -5,6 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'hover.css/css/hover.css';
+import 'animate.css/animate.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

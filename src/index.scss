@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;900&display=swap');
 
 $font-poppins:'Poppins', sans-serif;
 
@@ -17,4 +17,8 @@ $color-neutral-100:#FFFFFF;
 
 * {
   font-family: $font-poppins;
+}
+
+body {
+  background-color: $color-secundary-01 !important;
 }
