@@ -1,0 +1,35 @@
+@import '../../index.scss';
+
+.dt-footer {
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    img {
+        width: 175px;
+        margin-bottom: 15px;
+    }
+    p {
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .dt-footer-social {
+        a {
+            display:inline-flex;
+            background-color: $color-neutral-500;
+            width: 35px;
+            height: 35px;
+            justify-content: center;
+            align-items: center;
+            color: $color-neutral-800;
+            font-size: 16px;
+            border-radius: 25px;
+            margin: 0px 5px;
+            &:hover {
+                background-color: $color-neutral-800;
+                color: $color-neutral-100;
+                transition: 0.8s;
+            }
+        }
+    }
+}

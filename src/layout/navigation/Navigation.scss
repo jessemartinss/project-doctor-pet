@@ -87,7 +87,14 @@
             }
         }
     }
-    @media (min-width: 300px) and (max-width: 575.98px) {}
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        .navbar-brand {
+            img {
+                width: 175px;
+            }
+            margin: 0px 0px 0px 0px;
+        }
+    }
     @media (min-width: 576px) and (max-width: 767.98px) {}
     @media (min-width: 768px) and (max-width: 991.98px) {
         .dt-btn-mobile {
