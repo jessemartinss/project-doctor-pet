@@ -8,3 +8,239 @@
     align-items: center;
     background-color: $color-neutral-800;
 }
+
+.dt-home-01 {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: $color-secundary-01;
+    img {
+        width: 100%;
+    }
+    h1 {
+        color: $color-neutral-800;
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 900;
+    }
+    p {
+        color: $color-neutral-600;
+        font-size: 18px;
+        margin: 15px 0px;
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        a {
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        text-align: center;
+        img {
+            width: 85%;
+        }
+        h1 {
+            font-size: 35px;
+            line-height: 45px;
+            width: 75%;
+            margin: 0 auto;
+        }
+        a {
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        text-align: center;
+        img {
+            width: 85%;
+        }
+        h1 {
+            font-size: 40px;
+            line-height: 45px;
+            width: 85%;
+            margin: 0 auto;
+        }
+        a {
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-02 {
+    width: 100%;
+    padding: 60px 0px;
+    .dt-home-card {
+        display: flex;
+        align-items: flex-start;
+        .dt-home-card-img {
+            img {
+                margin-right: 15px;
+            }
+        }
+        .dt-home-card-content {
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+                color: $color-neutral-800;
+            }
+            h5 {
+                color: $color-neutral-600;
+                font-size: 18px;
+            }
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+        .dt-home-card {
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        padding: 40px 0px;
+        .dt-home-card {
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        padding: 40px 0px;
+        .dt-home-card {
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-03 {
+    padding: 20px 0px;
+    h2 {
+        font-size: 38px;
+        line-height: 48px;
+        font-weight: 900;
+        color: $color-neutral-800;
+    }
+    .dt-home-btns {
+        button {
+            width: 72px;
+            height: 72px;
+            border: 1px solid $color-neutral-400;
+            border-radius: 20px;
+            font-size: 25px;
+            margin-left: 15px;
+            background-color: $color-neutral-100;
+            color: $color-neutral-400;
+            &:hover {
+                border: 1px solid $color-primary-01;
+                color: $color-primary-01;
+                transition: 0.9s;
+            }
+        }
+    }
+    .dt-home-card-03 {
+        border: 1px solid $color-neutral-400;
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        .dt-home-card-img {
+            img {
+                width: 120px;
+                padding: 0px 20px 30px 0px;
+            }
+        }
+        .dt-home-card-content {
+            a {
+                font-size: 26px;
+                padding-bottom: 12px;
+                padding-right: 15px;
+                text-decoration: none;
+                font-weight: 900;
+                color: $color-neutral-800;
+            }
+            p {
+                font-size: 18px;
+                margin-bottom: 30px;
+                color: $color-neutral-600;
+                line-height: 32px;
+            }
+        }
+        &:hover {
+            border: 1px solid $color-primary-01;
+            transition: 0.9s;
+            .dt-home-card-content {
+                a {
+                    color: $color-primary-01;
+                    transition: 0.9s;
+                }
+            }
+            .dt-home-card-img {
+                img {
+                    width: 130px;
+                    transition: 0.9s;
+                }
+            }
+        }
+    }
+    .dt-home-btn-footer {
+        a {
+            button {
+                margin: 0px 15px !important;
+            }
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+        h2 {
+            font-size: 30px;
+        }
+        .dt-home-btns {
+            button {
+                width:62px;
+                height: 62px;
+                font-size: 20px;
+            }
+        }
+        .dt-home-card-03 {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .dt-home-btn-footer {
+            a {
+                button {
+                    width: 100% !important;
+                    margin: 10px 0px !important;
+                }
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        padding: 40px 0px;
+        .dt-home-btns {
+            button {
+                width:62px;
+                height: 62px;
+                font-size: 20px;
+            }
+        }
+        .dt-home-card-03 {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
