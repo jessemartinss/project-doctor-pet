@@ -16,13 +16,13 @@ export default function HomeSection03() {
                     <div className="col-lg-12 d-flex justify-content-between align-items-center py-lg-5 py-3">
                         <h2>Our services</h2>
                         <div className="dt-home-btns">
-                            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><FaChevronLeft/></button>
-                            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><FaChevronRight/></button>
+                            <button type="button" data-bs-target="#slide03" data-bs-slide="prev"><FaChevronLeft/></button>
+                            <button type="button" data-bs-target="#slide03" data-bs-slide="next"><FaChevronRight/></button>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="slide03" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div className="row">

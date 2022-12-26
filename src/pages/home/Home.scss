@@ -8,7 +8,6 @@
     align-items: center;
     background-color: $color-neutral-800;
 }
-
 .dt-home-01 {
     width: 100%;
     padding: 40px 0px;
@@ -240,6 +239,209 @@
         }
     }
     @media (min-width: 768px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-04 {
+    padding: 100px 0px;
+    background-color: $color-secundary-01;
+    img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 38px;
+        font-weight: 600;
+        color: $color-neutral-800;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        color: $color-neutral-600;
+        margin-bottom: 30px;
+    }
+    .dt-home-options {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        img {
+            width: 35px;
+            margin-right: 15px;
+            display: block;
+        }
+        h6 {
+            font-size: 18px;
+            font-weight: 600;
+            color: $color-neutral-800;
+            margin: 0px;
+        }
+    }
+    a {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+        a {
+            width: 100%;
+            button {
+                width: 100% !important;
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {}
+    @media (min-width: 768px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-05 {
+    padding: 80px 0px;
+    text-align: center;
+    h2 {
+        font-size: 35px;
+        line-height: 53px;
+        color: $color-neutral-800;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    p {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color-neutral-600;
+    }
+    .dt-home-btn-05 {
+        button {
+            width: 72px;
+            height: 72px;
+            border: 1px solid $color-neutral-400;
+            border-radius: 20px;
+            font-size: 25px;
+            background-color: $color-neutral-100;
+            color: $color-neutral-400;
+            margin: 0px 15px;
+            &:hover {
+                border: 1px solid $color-primary-01;
+                color: $color-primary-01;
+                transition: 0.9s;
+            }
+        }
+    }
+    .dt-home-slide-05 {
+        .dt-home-slide-item-05 {
+            img {
+                width: 100%;
+                border-radius: 20px;
+            }
+            border-radius: 20px;
+            border: 1px solid $color-neutral-400;
+            padding: 30px;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            h3 {
+                font-size: 26px;
+                line-height: 35px;
+                margin-bottom: 15px;
+                font-weight: 600;
+                color: $color-neutral-800;
+                text-align: left;
+            }
+            h4 {
+                text-align: left;
+                font-size: 20px;
+                color: $color-neutral-600;
+                line-height: 30px;
+                margin-bottom: 30px;
+            }
+            h5 {
+                text-align: left;
+                font-size: 20px;
+                color: $color-neutral-800;
+                font-weight: 600;
+                line-height: 20px;
+            }
+            h6 {
+                text-align: left;
+                font-size: 20px;
+                color: $color-neutral-600;
+                line-height: 20px;
+            }
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            width: 100% !important;
+        }
+        .dt-home-slide-item-05 {
+            width: 100% !important;
+            padding: 15px !important;
+            img {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        padding: 60px 0px;
+        p {
+            width: 100% !important;
+        }
+        .dt-home-slide-item-05 {
+            width: 100% !important;
+            padding: 15px !important;
+            img {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-06 {
+    width: 100%;
+    padding: 70px 0px 0px;
+    background-color: $color-secundary-03;
+    img {
+        width: 80%;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+        color: $color-neutral-100;
+        margin-bottom: 30px;
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        text-align: center;
+        h2 {
+            text-align: center;
+            font-size: 35px;
+        }
+        button {
+            margin-bottom: 30px;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        text-align: center;
+        button {
+            margin-bottom: 45px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        text-align: center;
+        button {
+            margin-bottom: 60px;
+        }
+    }
     @media (min-width: 992px) and (max-width: 1199.98px) {}
     @media (min-width: 1200px) and (max-width: 1399.98px) {}
     @media (min-width: 1400px) and (max-width: 2580px) {}
