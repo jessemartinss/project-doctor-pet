@@ -449,7 +449,7 @@
 .dt-home-07 {
     width: 100%;
     padding: 80px 0px;
-    background-color: $color-neutral-200;
+    background-color: $color-neutral-300;
     .dt-home-title {
         h4 {
             font-size: 40px;
@@ -565,6 +565,34 @@
             }
         }
     }
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}
+.dt-home-08 {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: $color-neutral-200;
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        color: $color-neutral-800;
+        font-weight: 900;
+        a {
+            color: $color-primary-01;
+        }
+    }
+    .dt-home-box {
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {}
+    @media (min-width: 768px) and (max-width: 991.98px) {}
     @media (min-width: 992px) and (max-width: 1199.98px) {}
     @media (min-width: 1200px) and (max-width: 1399.98px) {}
     @media (min-width: 1400px) and (max-width: 2580px) {}

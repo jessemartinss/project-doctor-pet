@@ -19,10 +19,10 @@ export default function HomeSection07() {
                 </div>
                 <div className="row">
                     <div className="col-lg-4 mb-4 mb-lg-0">
-                        <div className="dt-home-card">
+                        <div className="dt-home-card hvr-grow">
                             <div className="dt-home-card-img text-end">
                                 <span>Dogs</span>
-                                <img src={ImgHome06} alt="" />
+                                <img src={ImgHome06} alt=""/>
                             </div>
                             <div className="dt-home-card-content">
                                 <a href="">Dog toys: How to pick the best and the safest</a>
@@ -35,7 +35,7 @@ export default function HomeSection07() {
                         </div>
                     </div>
                     <div className="col-lg-4 mb-4 mb-lg-0">
-                        <div className="dt-home-card">
+                        <div className="dt-home-card hvr-grow">
                             <div className="dt-home-card-img text-end">
                                 <span>Dogs</span>
                                 <img src={ImgHome07} alt="" />
@@ -51,7 +51,7 @@ export default function HomeSection07() {
                         </div>
                     </div>
                     <div className="col-lg-4 mb-4 mb-lg-0">
-                        <div className="dt-home-card">
+                        <div className="dt-home-card hvr-grow">
                             <div className="dt-home-card-img text-end">
                                 <span>Cats</span>
                                 <img src={ImgHome08} alt="" />
