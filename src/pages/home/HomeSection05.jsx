@@ -33,7 +33,7 @@ export default function HomeSection05() {
                   <div class="carousel-item active">
                     <div className="row dt-home-slide-item-05">
                       <div className="col-lg-6">
-                        <img src={ImgHome03} alt="Image" />
+                        <img src={ImgHome03} alt="" />
                       </div>
                       <div className="col-lg-6">
                         <h3>"A team of vets you can trust"</h3>
@@ -46,7 +46,7 @@ export default function HomeSection05() {
                   <div class="carousel-item">
                     <div className="row dt-home-slide-item-05">
                       <div className="col-lg-6">
-                        <img src={ImgHome04} alt="Image" />
+                        <img src={ImgHome04} alt="" />
                       </div>
                       <div className="col-lg-6">
                         <h3>"A team of vets you can trust"</h3>

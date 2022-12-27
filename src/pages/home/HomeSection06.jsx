@@ -14,7 +14,7 @@ export default function HomeSection06() {
                     <ButtonDefaultOrange value="Contact us"/>
                 </div>
                 <div className="col-lg-7 text-end">
-                    <img src={ImgHome05} alt="Image" />
+                    <img src={ImgHome05} alt="" />
                 </div>
             </div>
         </div>

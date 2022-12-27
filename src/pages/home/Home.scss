@@ -446,3 +446,126 @@
     @media (min-width: 1200px) and (max-width: 1399.98px) {}
     @media (min-width: 1400px) and (max-width: 2580px) {}
 }
+.dt-home-07 {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: $color-neutral-200;
+    .dt-home-title {
+        h4 {
+            font-size: 40px;
+            font-weight: 600;
+            color: $color-neutral-800;
+        }
+    }
+    .dt-home-card {
+        position: relative;
+        .dt-home-card-img {
+            margin-bottom: 30px;
+            img {
+                width: 100%;
+                border-radius: 14px;
+            }
+            span {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                z-index: 1;
+                background-color: $color-primary-01;
+                padding: 12px 20px;
+                border-radius: 12px;
+                color: $color-neutral-100;
+                font-size: 16px;
+            }
+        }
+        .dt-home-card-content {
+            a {
+                font-size: 22px;
+                color: $color-neutral-800;
+                font-weight: 900;
+                text-decoration: none;
+            }
+            .dt-home-card-links {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: $color-primary-01;
+                    font-weight: 600;
+                    text-decoration: none;
+                    &:hover {
+                        color: $color-neutral-800;
+                        transition: 0.9s;
+                    }
+                }
+                p {
+                    color: $color-neutral-600;
+                    font-size: 18px;
+                    padding: 0px;
+                    margin: 0px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        padding: 40px 0px;
+        .dt-home-title {
+            flex-direction: column;
+            h4 {
+                font-size: 40px;
+                font-weight: 600;
+                color: $color-neutral-800;
+                margin-bottom: 15px;
+            }
+        }
+        .dt-home-card-img {
+            position: relative;
+            span {
+                position: absolute;
+                top: 15px;
+                right: 15px !important;
+                z-index: 1;
+                text-align: right;
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        padding: 60px 0px;
+        .dt-home-title {
+            flex-direction: column;
+            h4 {
+                font-size: 40px;
+                font-weight: 600;
+                color: $color-neutral-800;
+                margin-bottom: 15px;
+            }
+        }
+        .dt-home-card-img {
+            position: relative;
+            span {
+                position: absolute;
+                top: 15px;
+                right: 15px !important;
+                z-index: 1;
+                text-align: right;
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .dt-home-card-img {
+            position: relative;
+            span {
+                position: absolute;
+                top: 15px;
+                right: 15px !important;
+                z-index: 1;
+                text-align: right;
+            }
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1399.98px) {}
+    @media (min-width: 1400px) and (max-width: 2580px) {}
+}

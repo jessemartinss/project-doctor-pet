@@ -6,6 +6,7 @@ import HomeSection03 from './HomeSection03';
 import HomeSection04 from './HomeSection04';
 import HomeSection05 from './HomeSection05';
 import HomeSection06 from './HomeSection06';
+import HomeSection07 from './HomeSection07';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeSection04/>
       <HomeSection05/>
       <HomeSection06/>
+      <HomeSection07/>
     </React.Fragment>
   )
 }
